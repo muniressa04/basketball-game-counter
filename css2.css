@@ -1,0 +1,31 @@
+@font-face {
+    font-family: digital;
+    src: url("digital-7/digital-7.ttf");
+}
+body {
+    display: flex;
+    justify-content: space-around;
+    background: darkslategrey;
+}
+p {
+    margin: 0px;
+    width: 100px;
+    padding: 10px 5px;
+    text-align: right;
+    font-size: 100px;
+    background: darkblue;
+    color: aliceblue;
+    font-family: digital;
+}
+#container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button {
+    font-family: digital;
+    color: aliceblue;
+    background: darkslategrey;
+    border: 1px solid aliceblue;
+    border-radius: 2px;
+}
