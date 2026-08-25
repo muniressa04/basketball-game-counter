@@ -7,6 +7,10 @@ body {
     justify-content: space-around;
     background: darkslategrey;
 }
+h1 {
+    color: white;
+    text-shadow: 0 0 1px black;
+}
 p {
     margin: 0px;
     width: 100px;
